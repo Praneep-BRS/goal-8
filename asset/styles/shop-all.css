@@ -1,0 +1,54 @@
+.main.shop-main {
+  background: #fff;
+}
+.shop-all {
+  padding-bottom: 50px;
+}
+.filter {
+  gap: 25px;
+}
+.filter-content {
+  gap: 30px;
+}
+
+.fliter-content-label {
+  justify-content: space-between;
+}
+.filter-icons {
+  color: #757575;
+}
+.filter-row:not(:last-child) {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #e3e3e3;
+}
+.filter-row:not(:first-child) {
+  padding-top: 18px;
+}
+.filter-cta {
+  gap: 25px;
+}
+.filter-cta label {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 16px;
+  color: #757575;
+}
+.filter-cta-action {
+  align-items: center;
+  gap: 15px;
+}
+.filter-cta-action input {
+  height: auto !important;
+  box-sizing: inherit !important;
+  padding: 15px 0px 15px 10px !important;
+  border: 1px solid #757575 !important;
+}
+.filter-cta-action input[placeholder] {
+  color: #757575 !important;
+}
+.product-card.shop-products {
+  width: 285px;
+  margin-bottom: 10px !important;
+}
+.main.shop-main .row {
+  margin-bottom: 0 !important;
+}

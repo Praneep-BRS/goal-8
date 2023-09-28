@@ -1,0 +1,96 @@
+.main .section-product-description {
+  background: #fff;
+}
+.section-product-description {
+  margin: 30px 0 100px 0;
+}
+.product-img-container {
+  border: 0.8px solid #e9e9e9;
+}
+.product-info {
+  padding-top: 30px;
+  padding-left: 15px;
+  gap: 35px;
+}
+.product-info-brand {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+}
+.product-info-heading {
+  gap: 5px;
+}
+.product-info-heading h1 {
+  margin: 0 !important;
+}
+.product-info-price {
+  font-size: 24px;
+}
+.size-chart {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.size-label {
+  padding: 5px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.size-label.active {
+  background: rgb(34, 34, 34);
+  color: #fff;
+}
+.QuantitySelector {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #818181;
+  white-space: nowrap;
+  width: 43%;
+}
+.QuantitySelector__Button {
+  display: inline-block;
+  padding: 7px 14px 8px;
+  cursor: pointer;
+}
+.QuantitySelector__CurrentQuantity {
+  display: inline-block;
+  width: 20px;
+  margin: 0 !important;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: normal;
+  background: transparent;
+  border: none !important;
+}
+.QuantitySelector__Button {
+  display: inline-block;
+  padding: 7px 14px 8px;
+  cursor: pointer;
+}
+.size-chart-indicator {
+  padding: 15px 0;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+.product-cta-btn {
+  display: flex;
+  border-radius: 5px !important;
+  background: #0033dd !important;
+  font-family: inherit !important;
+  font-size: 12px !important;
+}
+.blue-origin-message {
+  background-color: #0033dd;
+  padding: 80px 200px;
+
+  text-align: center;
+}
+.blue-origin-message h2 {
+  color: #fff;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+.blue-origin-message p {
+  font-size: 20px;
+  color: #c9c9c9;
+  line-height: 1.7;
+}

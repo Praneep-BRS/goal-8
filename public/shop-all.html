@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRS-Goal-8</title>
+
+    <!--Main style-->
+    <link href="../asset/styles/style.css" rel="stylesheet" />
+    <link href="../asset/styles/helper.css" rel="stylesheet" />
+    <link href="../asset/styles/shop-all.css" rel="stylesheet" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap"
+      rel="stylesheet" />
+    <!--Materialize CSS-->
+    <link href="../asset/styles/materialize.min.css" rel="stylesheet" />
+    <!--Material Icons-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet" />
+    <link
+      href="https://db.onlinewebfonts.com/c/b0a8ac521bcf09c5509a43ab46a70d45?family=From+the+Stars+W01+Bold"
+      rel="stylesheet" />
+  </head>
+
+  <!------------------------------------------------------------------------------------------------------------------------------>
+
+  <!--Body-->
+
+  <body>
+    <!--Header-->
+    <header class="header" id="home">
+      <div class="grid-container">
+        <nav class="nav-content navbar-fixed transparent">
+          <a href="#" data-target="slide-out" class="sidenav-trigger d-block">
+            <span class="material-symbols-outlined">menu</span>
+          </a>
+          <a href="index.html" class="nav-brand">
+            <img src="../asset/img/shoplogo.avif" class="responsive-img" />
+          </a>
+          <div class="nav-icons right">
+            <a href="#">
+              <span class="material-symbols-outlined">search</span>
+            </a>
+            <a href="#">
+              <span class="material-symbols-outlined">person</span>
+            </a>
+            <a href="cart.html">
+              <span class="material-symbols-outlined">shopping_bag</span>
+            </a>
+          </div>
+        </nav>
+
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view">
+              <a href="index.html">
+                <img src="../asset/img/shoplogo.avif" class="responsive-img" />
+              </a>
+            </div>
+          </li>
+          <li class="sub-list">
+            <a href="#">NEW</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">APPAREL</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">ACCESSORIES</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+
+          <li class="sub-list">
+            <a href="#">NEW SHEPERD</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">CLEARANCE</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">SHOP ALL</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Main-->
+    <main class="main shop-main">
+      <section class="shop-all">
+        <div class="grid-container">
+          <div class="product-header">
+            <h3 class="section-heading">Shop All</h3>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <section class="filter d-flex flex-column">
+                <div>
+                  <div class="filter-row">
+                    <h5 class="section-heading">Filter:</h5>
+                  </div>
+                  <div class="filter-row"></div>
+                </div>
+                <div>
+                  <div class="filter-row">
+                    <div class="filter-content d-flex flex-column">
+                      <div class="fliter-content-label d-flex">
+                        <p>Price</p>
+                        <span class="material-symbols-outlined filter-icons">
+                          expand_less
+                        </span>
+                      </div>
+                      <div class="filter-cta d-flex flex-column">
+                        <label>The highest price is $445.00</label>
+                        <div class="filter-cta-action d-flex">
+                          <label>$</label>
+                          <div class="input-field">
+                            <input
+                              placeholder="From"
+                              id="first_name"
+                              type="text"
+                              class="validate" />
+                          </div>
+                          <div class="input-field">
+                            <input
+                              placeholder="To"
+                              id="last_name"
+                              type="text"
+                              class="validate" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter-row">
+                    <div class="filter-content d-flex flex-column">
+                      <div class="fliter-content-label d-flex">
+                        <p>Color</p>
+                        <span class="material-symbols-outlined filter-icons">
+                          expand_more
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter-row">
+                    <div class="filter-content d-flex flex-column">
+                      <div class="fliter-content-label d-flex">
+                        <p>Size</p>
+                        <span class="material-symbols-outlined filter-icons">
+                          expand_more
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter-row">
+                    <div class="filter-content d-flex flex-column">
+                      <div class="fliter-content-label d-flex">
+                        <p>Product type</p>
+                        <span class="material-symbols-outlined filter-icons">
+                          expand_more
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col s12 m9">
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/products/mens-blue-feather-logo-tee-946642.jpg?v=1671124088&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">
+                        Men's Blue Feather Logo Tee
+                      </h6>
+                      <p class="product-price">$21.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/products/blue-origin-tag-167809.jpg?v=1665438272&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Blue Origin Tag</h6>
+                      <p class="product-price">$4.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/files/RBFT-RED.jpg?v=1694214538&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Remove Before Flight Tag</h6>
+                      <p class="product-price">$4.95</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0301/0088/1545/products/be-4-engine-tee-580463.jpg?v=1671124073&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Lightweight Hoodie</h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0301/0088/1545/products/ns-18-patch-248529.jpg?v=1665438333&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Lightweight Hoodie</h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0301/0088/1545/products/crew-capsule-stress-reliever-878892.jpg?v=1665438263&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Lightweight Hoodie</h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/products/black-polo-993098.jpg?v=1671124079&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">New Glenn Launch Tee</h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/products/wordmark-Gildan_5000_Heather_Military_Green_Front_High_1.jpg?v=1675447916&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">Logo Tree</h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="product-card shop-products">
+                    <img
+                      src="https://shop.blueorigin.com/cdn/shop/products/mens-new-glenn-engine-tee-665464.jpg?v=1671124091&width=360"
+                      class="responsive-img" />
+                    <div class="product-description">
+                      <h6 class="product-heading">
+                        Men's New Glenn Engine Tee
+                      </h6>
+                      <p class="product-price">$34.95</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="page-footer grey darken-4">
+      <div class="grid-container">
+        <div class="row">
+          <div class="col s12 m4 d-flex flex-column">
+            <span class="card-content-heading">Quick Links</span>
+            <ul class="footer-links">
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Refunds & Exchanges</a></li>
+              <li><a href="#">Do not sell my personal information</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m4 d-flex justify-center">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/feather-footer.png?v=1649093136&width=135"
+              class="responsive-img" />
+          </div>
+          <div class="col s12 m4 justify-end">
+            <p class="line-height-1">
+              For questions or concerns please contact customer service
+              shop@blueorigin.com. Please allow up to 2 business days for
+              response.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Compiled and minified Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <!--Materialize script-->
+    <script
+      src="../asset/script/materialize.min.js"
+      type="text/javascript"></script>
+    <script type="text/javascript" src="../asset/script/script.js"></script>
+  </body>
+
+  <!------------------------------------------------------------------------------------------------------------------------------>
+</html>

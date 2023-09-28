@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRS-Goal-8</title>
+
+    <!--Main style-->
+    <link href="../asset/styles/style.css" rel="stylesheet" />
+    <link href="../asset/styles/helper.css" rel="stylesheet" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap"
+      rel="stylesheet" />
+    <!--Materialize CSS-->
+    <link href="../asset/styles/materialize.min.css" rel="stylesheet" />
+    <!--Material Icons-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet" />
+    <link
+      href="https://db.onlinewebfonts.com/c/b0a8ac521bcf09c5509a43ab46a70d45?family=From+the+Stars+W01+Bold"
+      rel="stylesheet" />
+  </head>
+
+  <!------------------------------------------------------------------------------------------------------------------------------>
+
+  <!--Body-->
+
+  <body>
+    <!--Header-->
+   <header class="header" >
+      <div class="grid-container">
+        <nav class="nav-content navbar-fixed transparent">
+          <a href="#" data-target="slide-out" class="sidenav-trigger d-block">
+            <span class="material-symbols-outlined">menu</span>
+          </a>
+          <a href="index.html" class="nav-brand">
+            <img src="../asset/img/shoplogo.avif" class="responsive-img" />
+          </a>
+          <div class="nav-icons right">
+            <a href="#">
+              <span class="material-symbols-outlined">search</span>
+            </a>
+            <a href="#">
+              <span class="material-symbols-outlined">person</span>
+            </a>
+            <a href="cart.html">
+              <span class="material-symbols-outlined">shopping_bag</span>
+            </a>
+          </div>
+        </nav>
+
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view">
+              <a href="index.html">
+                <img src="../asset/img/shoplogo.avif" class="responsive-img" />
+              </a>
+            </div>
+          </li>
+          <li class="sub-list">
+            <a href="#">NEW</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">APPAREL</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">ACCESSORIES</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+
+          <li class="sub-list">
+            <a href="#">NEW SHEPERD</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">CLEARANCE</a>
+            <a href="#">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+          <li class="sub-list">
+            <a href="#">SHOP ALL</a>
+          </li>
+        </ul>
+      </div>
+    </heade>
+
+    <!--Slider-->
+    <div class="sliders">
+      <div class="slide">
+        <div class="Slider-img">
+          <img
+            src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-Banner6.jpg?v=1695055001&width=1500" />
+        </div>
+        <div class="overlay">
+          <h1>
+            Fresh Fall arrivals
+            <br />
+            now available
+          </h1>
+          <button class="white">SHOP NOW</button>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="Slider-img">
+          <img
+            src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-Banner2.jpg?v=1695055038&width=1500" />
+        </div>
+        <div class="overlay">
+          <h1>
+            Fresh Fall arrivals
+            <br />
+            now available
+          </h1>
+          <button class="white">SHOP NOW</button>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="Slider-img">
+          <img
+            src="https://shop.blueorigin.com/cdn/shop/files/banner-estes.jpg?v=1693930966&width=1500" />
+        </div>
+        <div class="overlay">
+          <h1>
+            Shop Estes
+            <br />
+            New Shepard
+            <br />
+            Builder Kit
+          </h1>
+          <button class="white">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Slider buttons-->
+    <div class="slider-buttons">
+      <div class="slider__btn slider__btn--left">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+      </div>
+      <div class="slides-count"></div>
+      <div class="slider__btn slider__btn--right">
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+      </div>
+    </div>
+</header>
+    <!--Main-->
+    <main class="main">
+      <!--Products Section-->
+      <section class="products-slider">
+        <div class="grid-container">
+          <div class="product-header">
+            <h5 class="section-heading">FEATURED PRODUCTS</h5>
+            <a href="#" role="button" class="product-cta">View all</a>
+          </div>
+        </div>
+        <!--Slick slider-->
+
+        <div class="slider">
+          <div class="product-card">
+            <a href="product-description.html"><img
+              src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-LightweightHoodie.jpg?v=1694799946&width=360"
+              class="responsive-img" /></a>
+            <div class="product-description">
+              <h6 class="product-heading">Lightweight Hoodie</h6>
+              <p class="product-price">$34.95</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-BlueLongSleeveTee.jpg?v=1694796500&width=360"
+              class="responsive-img" />
+            <div class="product-description">
+              <h6 class="product-heading">Blue Long Sleeve Tee</h6>
+              <p class="product-price">$32.95</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/Fall2023-LightweightRaglanHoodie.jpg?v=1694795798&width=360"
+              class="responsive-img" />
+            <div class="product-description">
+              <h6 class="product-heading">Light-weight Raglan Hoodie</h6>
+              <p class="product-price">$38.35</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-CroppedTieDyeHoodie.jpg?v=1694793574&width=360"
+              class="responsive-img" />
+            <div class="product-description">
+              <h6 class="product-heading">Cropped TieDye Hoodie</h6>
+              <p class="product-price">$28.50</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-MensApexPullover.jpg?v=1694795403&width=360"
+              class="responsive-img" />
+            <div class="product-description">
+              <h6 class="product-heading">Men's Apex Pullover</h6>
+              <p class="product-price">$30.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop-cta">
+        <div class="grid-container cta-container col sm-4 offset-8">
+          <div class="cta-heading">
+            <span class="main-heading">New Shepard</span>
+            <p>Explore our catalog of New Shepard apparel and accessories</p>
+          </div>
+          <div class="cta-btn">
+            <button>SHOP NOW</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="spotlight">
+        <div class="grid-container">
+          <div class="product-header">
+            <h5 class="section-heading white-text">SPOTLIGHT PRODUCTS</h5>
+          </div>
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card white-text">
+                <div class="card-image">
+                  <img
+                    src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-BlueHeatherFullZip-Back_2d19d1ea-9505-44d7-8e43-e2eafbad8f6c.jpg?v=1695055379&width=550"
+                    class="responsive-img" />
+                </div>
+                <div class="card-content bg-accent-blue d-flex flex-column">
+                  <span class="card-content-heading">
+                    BLUE Heather Full Zip
+                  </span>
+                  <p>
+                    Soft, light grey full-zip hoodie with feather woven tag on
+                    left hip. 80% ringspun Cotton/20% polyester, and distressed
+                    graphics on back. Gender beutral fit.
+                  </p>
+                  <a href="#" role="button" class="white-text">
+                    SHOP NOW &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card white-text">
+                <div class="card-image">
+                  <img
+                    src="https://shop.blueorigin.com/cdn/shop/files/2023Fall-RocketFuelMug-Front_34c4f0de-5dfe-4ea3-9b1f-181d6d9df088.jpg?v=1695055378&width=550"
+                    class="responsive-img" />
+                </div>
+                <div class="card-content bg-accent-blue d-flex flex-column">
+                  <span class="card-content-heading">14oz Rocket Fuel Mug</span>
+                  <p>
+                    14oz tall black mug with Rocket Fuel graphics. Handwash
+                    recommended.
+                  </p>
+                  <a href="#" role="button" class="white-text">
+                    SHOP NOW &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card white-text">
+                <div class="card-image">
+                  <img
+                    src="https://shop.blueorigin.com/cdn/shop/files/MicrosoftTeams-image_14.webp?v=1695055390&width=550"
+                    class="responsive-img" />
+                </div>
+                <div class="card-content bg-accent-blue d-flex flex-column">
+                  <span class="card-content-heading">Engine Trucker Hat</span>
+                  <p>
+                    Structured, 5-panel, mid-profile trucker hat with For the
+                    Benefit of Earth raised patch on front, and Engine graphich
+                    imprint under visor. Made with partial recycled materials
+                    and an adjustable snapback closure.
+                  </p>
+                  <a href="#" role="button" class="white-text">
+                    SHOP NOW &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="page-footer grey darken-4">
+      <div class="grid-container">
+        <div class="row">
+          <div class="col s12 m4 d-flex flex-column">
+            <span class="card-content-heading">Quick Links</span>
+            <ul class="footer-links">
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Refunds & Exchanges</a></li>
+              <li><a href="#">Do not sell my personal information</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m4 d-flex justify-center">
+            <img
+              src="https://shop.blueorigin.com/cdn/shop/files/feather-footer.png?v=1649093136&width=135"
+              class="responsive-img" />
+          </div>
+          <div class="col s12 m4 justify-end">
+            <p class="line-height-1">
+              For questions or concerns please contact customer service
+              shop@blueorigin.com. Please allow up to 2 business days for
+              response.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Compiled and minified Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <!--Materialize script-->
+    <script
+      src="../asset/script/materialize.min.js"
+      type="text/javascript"></script>
+    <script type="text/javascript" src="../asset/script/script.js"></script>
+  </body>
+
+  <!------------------------------------------------------------------------------------------------------------------------------>
+</html>

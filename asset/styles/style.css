@@ -1,0 +1,559 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3 {
+  margin: 0 !important;
+}
+/*Font-face*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  /* font-family: "Inter", sans-serif;*/
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "From the Stars W01 Bold";
+  box-sizing: border-box;
+}
+p {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+}
+
+.header {
+  padding: 10px 0;
+  background: #0033dd;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none;
+}
+.nav-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-brand img {
+  width: 40%;
+}
+.nav-icons {
+  display: flex;
+  gap: 25px;
+}
+
+/*Slider*/
+.sliders {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+.Slider-img {
+  width: 100%;
+  height: 100vh;
+}
+.slides-count {
+  color: #afbeff;
+}
+.slider-buttons {
+  background: #0033dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.slider__btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.slider__btn.slider__btn--left,
+.slider__btn.slider__btn--right {
+  display: flex;
+  align-items: center;
+}
+.slider__btn.slider__btn--right {
+  justify-content: flex-end;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.548);
+  width: 100%;
+  height: 100%;
+  padding: 150px 0 0 80px;
+}
+.overlay h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 74px;
+}
+.overlay button,
+.cta-btn button {
+  font-family: inherit !important;
+  border: none;
+  outline: none;
+  background: #0033dd !important;
+  color: #fff;
+  padding: 22px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+}
+
+/*main*/
+.main {
+  background: #fafafa;
+}
+.product-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+.product-description {
+  padding: 5px 20px 25px 20px;
+}
+.product-price {
+  color: rgb(68, 68, 68);
+}
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.products-slider,
+.spotlight {
+  padding: 10px 0 70px 0;
+}
+.spotlight {
+  background: #0033dd;
+}
+/*Show*/
+.shop-cta {
+  background: url("https://shop.blueorigin.com/cdn/shop/files/home-new-shepard-hero.jpg?v=1665597721&width=1500")
+    100% no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 570px;
+}
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  height: 570px;
+}
+.cta-heading {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.card-content.d-flex {
+  gap: 10px;
+  height: 255px;
+}
+
+.card-content.d-flex p {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.7;
+  color: #ecedffb7;
+}
+.card-content.d-flex a {
+  font-size: 16px;
+}
+.card-content-heading {
+  font-size: 20px;
+}
+/*slick slider*/
+.slider {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.slick-slide {
+  margin: 0 5px;
+}
+.slick-list {
+  margin: 0px -5px 0px -5px;
+}
+button.slick-next,
+button.slick-next:hover {
+  position: absolute;
+  top: 41%;
+  right: 54px;
+  width: 47px;
+  height: 75px;
+  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+  background-size: 95px;
+}
+button.slick-prev,
+button.slick-prev:hover {
+  position: absolute;
+  top: 41%;
+  left: 15px;
+  z-index: 1;
+  width: 47px;
+  height: 75px;
+  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+  background-size: 95px;
+  background-position-x: right;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 70px;
+  color: #ea8496;
+  line-height: inherit;
+  font-weight: bold;
+}
+.slider img {
+  height: 324px;
+}
+.page-footer {
+  padding: 40px 0 !important;
+}
+.footer-links {
+  margin-top: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-links li a,
+.page-footer p {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Ubuntu", sans-serif;
+}
+/* Slider */
+.slick-slider {
+  position: relative;
+
+  display: block;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+
+  height: 100%;
+  min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+
+  height: auto;
+
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff
+    url("http://maggiesadler.com/wp-content/uploads/2015/10/ajax-loader.gif")
+    center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("file:///C:/Users/msadler/Desktop/slick-1.5.7/slick/fonts/slick.eot");
+  src: url("file:///C:/Users/msadler/Desktop/slick-1.5.7/slick/fonts/slick.eot?#iefix")
+      format("embedded-opentype"),
+    url("file:///C:/Users/msadler/Desktop/slick-1.5.7/slick/fonts/slick.woff")
+      format("woff"),
+    url("file:///C:/Users/msadler/Desktop/slick-1.5.7/slick/fonts/slick.ttf")
+      format("truetype"),
+    url("file:///C:/Users/msadler/Desktop/slick-1.5.7/slick/fonts/slick.svg#slick")
+      format("svg");
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+
+  position: absolute;
+  top: 50%;
+
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  padding: 0;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+[dir="rtl"] .slick-prev {
+  right: -25px;
+  left: auto;
+}
+.slick-prev:before {
+  content: "";
+}
+[dir="rtl"] .slick-prev:before {
+  content: "";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.slick-next {
+  right: -25px;
+}
+[dir="rtl"] .slick-next {
+  right: auto;
+  left: -25px;
+}
+.slick-next:before {
+  content: "";
+}
+[dir="rtl"] .slick-next:before {
+  content: "";
+}
+
+/* Dots */
+.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+
+  display: block;
+
+  width: 100%;
+  padding: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+
+  cursor: pointer;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+
+  content: "•";
+  text-align: center;
+
+  opacity: 0.25;
+  color: black;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+
+.sidenav {
+  background-color: #0033dd !important;
+  color: #fff !important;
+}
+.sub-list {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-list a {
+  color: #fff !important;
+}
+.sub-list span {
+  font-size: 20px !important;
+  margin-top: 15px;
+}
