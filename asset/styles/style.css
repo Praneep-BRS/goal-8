@@ -175,7 +175,7 @@ p {
 }
 .card-content.d-flex {
   gap: 10px;
-  height: 255px;
+  height: 300px;
 }
 
 .card-content.d-flex p {
